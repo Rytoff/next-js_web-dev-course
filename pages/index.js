@@ -1,7 +1,9 @@
+import Heading from "../components/Heading";
+
 export default function Home() {
   return (
     <>
-      <h1>Вітаю Next.js!</h1>
+      <Heading text='Вітаю Next.js!' />
     </>
   )
 }

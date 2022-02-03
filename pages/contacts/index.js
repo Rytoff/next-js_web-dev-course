@@ -1,7 +1,9 @@
+import Heading from "../../components/Heading";
+
 export default function Contacts() {
   return (
     <>
-      <h1>Contacts Page</h1>
+      <Heading text='Contacts Page' />
       <h2>Contacts List</h2>
       <ul>
         <li>John Doe</li>
