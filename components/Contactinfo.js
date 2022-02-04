@@ -12,11 +12,11 @@ const ContactInfo = ({ contact }) => {
     <>
       <Heading tag="h3" text={name} />
       <div>
-        <strong>Email:</strong>
+        <strong>Email:</strong><br/>
         {email}
       </div>
       <div>
-        <strong>Address:</strong>
+        <strong>Address:</strong><br/>
         {`${street}, ${suite}, ${city}, ${zipcode}`}
       </div>
     </>
