@@ -1,8 +1,9 @@
-import Navbar from './Navbar'
+import Navbar from "./Navbar";
 
 const Header = () => (
   <header>
     <Navbar />
   </header>
-)
-export default Header
+);
+
+export default Header;
