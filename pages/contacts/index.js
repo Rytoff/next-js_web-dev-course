@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Heading from '../../components/Heading'
 
 export const getStaticProps = async () => {
@@ -25,9 +26,9 @@ export default function Contacts({ contacts }) {
       <h2>Contacts List:</h2>
       <ul>
         {contacts &&
-          contacts.map(({ id, name, email }) => (
+          contacts.map(({ id, name }) => (
             <li key={id}>
-              <strong>{name}</strong>({email})
+              <Link href={`/contacts/${id}`}>{name}</Link>
             </li>
           ))}
       </ul>
